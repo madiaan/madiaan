@@ -26,3 +26,17 @@ body {
 .pinButton:hover {
     background-color: lightgray;
 }
+@media (max-width: 600px) {
+    .pinButton {
+        display: block;
+        height: 80px;
+        width: 80px;
+        border: 2px solid black;
+        background-color: white;
+        font-size: 50px;
+        line-height: 80px;
+        user-select: none;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+}
