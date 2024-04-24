@@ -9,12 +9,11 @@ function pinPage() {
     model.html = /*HTML*/`
         <h1>Insert PIN</h1>
         <h2>${displayedPin()}</h2>
+        <br/><br/>
         <div class="pinGrid">
             ${displayNumbers(1, 9)}
             <div></div>
             ${displayNumbers(0, 0)}
-        </div>
-        <div style="display: flex; align-items: center; justify-content: center;">
         </div>
     `;
 };
