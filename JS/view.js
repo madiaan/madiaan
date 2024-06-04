@@ -38,7 +38,7 @@ function mainPage() {
 function displayMemberInfo() {
     const member = model.members;
     const inputs = model.input;
-    let innerhtml = `<img class="memberInfo" style="top: ${inputs.selection[3]}px" onclick="removeInfo();" src="pics/${inputs.selection[1]}.jpg"/>`;
+    let innerhtml = `<img class="memberInfo" style="top: ${inputs.selection[3]}px" onclick="removeInfo();" src="pics/${inputs.selection[1]}.png"/>`;
     //for (let i = 0; i < member.length; i++) {
     //    innerhtml += `<img class="memberInfo" src="pics/${i}.jpg"/>`
     //}
